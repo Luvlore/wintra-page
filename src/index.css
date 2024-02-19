@@ -1,0 +1,55 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15vh;
+}
+
+:target {
+  scroll-margin-top: 10vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    translate: 0 100px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll {
+  from {
+    scale: 0 1;
+  }
+
+  to {
+    scale: 1 1;
+  }
+}
