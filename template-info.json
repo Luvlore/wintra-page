@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "gender": "",
+  "age": "",
+  "birthday": "",
+  "sexuality": "",
+  "pronouns": "",
+  "parents": "",
+  "tale": "",
+  "additionalInfos": {
+    "house": "",
+    "module": "",
+    "extraClasses": [
+      {
+        "module": "",
+        "classes": []
+      }
+    ],
+    "extracurriculars": [],
+    "extras": ""
+  },
+  "background": "",
+  "abilities": [
+    {
+      "name": "",
+      "scientific_name": "",
+      "description": "",
+      "limitations": [],
+      "when_gained": ""
+    }
+  ],
+  "appearance": {
+    "faceclaim": "",
+    "height": "",
+    "weight": "",
+    "description": ""
+  },
+  "personality": {
+    "qualities": [],
+    "defects": [],
+    "description": ""
+  }
+}
